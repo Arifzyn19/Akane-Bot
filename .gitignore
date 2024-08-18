@@ -1,0 +1,8 @@
+# file not brought 
+session
+storage/tmp 
+storage/database.json
+node_modules
+package-lock.json
+yarn.lock
+.env

@@ -1,0 +1,47 @@
+{
+  "name": "Akane-Bot",
+  "version": "1.1.0",
+  "description": "a WhatsApp Bot Using Case",
+  "main": "system/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node system/index.js --max-old-space-size=8192",
+    "dev": "pm2 start system/index.js --name bot --max-memory-restart 8G -- --max-old-space-size=8192"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arifzyn19/Akane-Bot"
+  },
+  "keywords": [
+    "weabot",
+    "wa-bot",
+    "whatsapp-bot",
+    "apalah",
+    "hisoka"
+  ],
+  "author": "ArifzynXD",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Arifzyn19/Akane-Bot/issues"
+  },
+  "homepage": "https://github.com/Arifzyn19/Akane-Bot#readme",
+  "dependencies": {
+    "@whiskeysockets/baileys": "latest",
+    "chalk": "^5.3.0",
+    "child_process": "^1.0.2",
+    "dotenv": "^16.4.5",
+    "file-type": "^18.5.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "moment-timezone": "^0.5.43",
+    "mongoose": "^7.3.4",
+    "node-webpmux": "^3.1.7"
+  },
+  "devDependencies": {
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "axios": "^1.4.0",
+    "jimp": "^0.16.13",
+    "link-preview-js": "^3.0.4",
+    "open": "^8.4.2",
+    "qrcode-terminal": "0.12.0"
+  }
+}
